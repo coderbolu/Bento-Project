@@ -214,15 +214,22 @@ body{
 }
 
 .attribution {
-    background-color: var(--Purple500);
+    background-color: var(--Purple100);
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    text-decoration:none ;
+
 }
 
 
-
-
 /* media query for tablet ( 1024px) */
-@media (max-width:1024px){
-   .container{
+@media (max-width:1024px) {
+
+   .container {
     grid-auto-rows: initial;
     grid-template-areas:
     "card1 card1 card2 card2"
