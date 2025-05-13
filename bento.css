@@ -314,6 +314,10 @@ a:hover {
     }
 }
 
+.attribution {
+    font-size: 0.75rem;
+}
+
 
 @media (max-width: 540px) {
     .container .card:nth-child(5) p {
