@@ -223,6 +223,7 @@ body{
 a {
     text-decoration:none;
     margin-left: 0.25rem;
+
 }
 
 a:hover {
@@ -248,7 +249,7 @@ a:hover {
 
     .container .card:nth-child(8) {
         grid-template-columns: 1fr;
-    }
+    } 
 }
 
 
@@ -315,10 +316,11 @@ a:hover {
 }
 
 .attribution {
-    font-size: 0.75rem;
+    font-size: 0.95rem;
 }
 
 
+/* media query for mobile (smaller than 540px) */
 @media (max-width: 540px) {
     .container .card:nth-child(5) p {
         margin: 6rem;
