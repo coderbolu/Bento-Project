@@ -213,6 +213,13 @@ body{
     gap:1rem;
 }
 
+.attribution {
+    background-color: var(--Purple500);
+}
+
+
+
+
 /* media query for tablet ( 1024px) */
 @media (max-width:1024px){
    .container{
