@@ -220,9 +220,13 @@ body{
     justify-content: center;
 }
 
-a:hover {
-    text-decoration:none ;
+a {
+    text-decoration:none;
+    margin-left: 0.25rem;
+}
 
+a:hover {
+    color: var(--White);
 }
 
 
